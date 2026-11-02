@@ -1,0 +1,9 @@
+git branch dev_cm 
+git remote add origin
+git push origin main
+git clone <repo link>
+git init
+git status
+git add Home.jsx
+git commit -m "first commit "
+git log
