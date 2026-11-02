@@ -1,0 +1,191 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.api-tester {
+  min-height: 100vh;
+  background: #0f1117;
+  color: #e5e7eb;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.api-tester {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header {
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.header p {
+  color: #8b92a1;
+  margin-top: 8px;
+}
+
+/* REQUEST */
+
+.request-bar {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.method {
+  width: 120px;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #30343f;
+  background: #181b23;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.method.get {
+  color: #60a5fa;
+}
+
+.method.post {
+  color: #4ade80;
+}
+
+.method.put {
+  color: #facc15;
+}
+
+.method.patch {
+  color: #c084fc;
+}
+
+.method.delete {
+  color: #f87171;
+}
+
+.url-input {
+  flex: 1;
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid #30343f;
+  background: #181b23;
+  color: white;
+  outline: none;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.url-input:focus {
+  border-color: #6366f1;
+}
+
+.send-btn {
+  padding: 0 28px;
+  border: none;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background: #4f46e5;
+}
+
+.send-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* SECTIONS */
+
+.section {
+  margin-top: 25px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.section-title h3 {
+  margin: 0;
+}
+
+.section-title span {
+  font-size: 12px;
+  color: #8b92a1;
+}
+
+/* BODY */
+
+.body-editor {
+  width: 100%;
+  min-height: 220px;
+  resize: vertical;
+  padding: 16px;
+
+  background: #0b0d12;
+  color: #d1d5db;
+
+  border: 1px solid #30343f;
+  border-radius: 8px;
+
+  outline: none;
+
+  font-family: "Consolas", monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.body-editor:focus {
+  border-color: #6366f1;
+}
+
+/* RESPONSE */
+
+.response {
+  min-height: 300px;
+  max-height: 600px;
+  overflow: auto;
+
+  margin: 0;
+  padding: 20px;
+
+  background: #090b10;
+  border: 1px solid #30343f;
+  border-radius: 8px;
+
+  color: #d1d5db;
+
+  font-family: "Consolas", monospace;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.status.success {
+  background: #123522;
+  color: #4ade80;
+}
+
+.status.error {
+  background: #3b1717;
+  color: #f87171;
+}

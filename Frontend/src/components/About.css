@@ -1,0 +1,51 @@
+.about-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 1.8;
+}
+
+.about-container h1 {
+  font-size: 2.8rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.about-container h2 {
+  font-size: 1.8rem;
+  color: #6c757d;
+  margin-bottom: 25px;
+}
+
+.about-container p {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.about-container p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    margin: 20px;
+    padding: 25px;
+  }
+
+  .about-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-container p {
+    font-size: 1rem;
+  }
+}
