@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1790328061906",
+    "name": "Akhil Goswami",
+    "email": "akhilgoswami2005@gmail.com",
+    "password": "1234"
+  },
+  {
+    "id": "1790848790254",
+    "name": "Akhil Goswami",
+    "email": "akhilgoswami2005@gmail.com",
+    "password": "1234",
+    "role": "User",
+    "status": "Active",
+    "registeredAt": "2026-10-01T09:59:50.254Z"
+  }
+]
